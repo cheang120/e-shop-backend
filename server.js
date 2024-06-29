@@ -16,7 +16,7 @@ app.use(cookieParser())
 app.use(bodyParser.json())
 app.use(
     cors({
-        origin:["http://localhost:3000", "https//https://e-shop-two-iota.vercel.app"],
+        origin:["http://localhost:3000", "https://e-shop-two-iota.vercel.app"],
         credentials:true
     })
 )
